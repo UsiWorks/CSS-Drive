@@ -1,0 +1,109 @@
+/* FONTS
+  
+  [HOW TO USE]
+  > In the comment is the font-family to be used.
+  
+  [RECOMMENDED]
+  > font-family: 'Nunito', sans-serif;
+  > font-family: 'Noto Sans JP', sans-serif;
+  > font-family: 'Hind Siliguri', sans-serif;
+*/
+
+/* 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* 'Nerko One', cursive */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+/* 'Texturina', serif */
+@import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
+
+/* 'Noto Sans JP', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+/* 'Oswald', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/* 'Poppins', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* 'Merriweather', serif */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+/* 'Nunito', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/* 'Titillium Web', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+/* 'Goldman', cursive */
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+/* 'Hind Siliguri', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+/* STYLES 
+ [HOW TO USE]
+ > The <tags> in tne comments are the HTML tags.
+*/
+
+/* <quote> */
+quote {
+  position: absolute;
+  border: none;
+  width: 96%;
+  background-color: #929292;
+  border-left: 5px solid grey;
+  color: white;
+  padding-left: 3px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: black;
+}
+
+/* <code> */
+code {
+  position: absolute;
+  background-color: #6B6C72;
+  width: 96%;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 5px;
+}
+
+/* <widget> */
+widget {
+  position: absolute;
+  width: 96%;
+  border: 1px solid grey;
+  border-radius: 15px;
+  padding-left: 5px;
+}
+
+.w-green {
+  background-color: #00FF0E;
+}
+
+.w-red {
+  background-color: #FF0000;
+}
+
+/* <button> */
+button {
+  border: 1px solid grey;
+}
+
+/* Positioning */
+.above-20 {
+  top: 20%;
+}
+
+.above-40 {
+  top: 40%;
+}
+
+.above-60 {
+  top: 60%;
+}
